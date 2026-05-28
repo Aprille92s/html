@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>April's Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 45px;
+        }
+
+        .glow-group *, 
+        .glow-group a {
+            transition: text-shadow 0.3s ease, color 0.3s ease;
+        }
+
+        .contact-link {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .glow-group :is(p, li, a):hover {
+            color: #ff4b4b;
+        }
+        .glow-group:has(:hover) :is(h1, h3,h4) {
+            color: #681111;
+             text-shadow: 0 0 30px #971818, 0 0 15px #c72626, 0 0 5px #ff4b4b;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-6 mb-4">
+                <div class="glow-group">
+                    <h1><u>April as in Maysa</u></h1>
+                    <p>A super cool person with a super cool resume plus some cool skills and in this resume will make you hire me!</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="glow-group text-end" style="line-height: 20px;">
+                    <h4><u>Contacts</u></h4>
+                    <p>Email: <a href="mailto:1@2.com" class="contact-link">1@2.com</a></p>
+                    <p>Phone: <a href="tel:1234567890" class="contact-link">1234567890</a></p>
+                    <p>Linkedin: <a href="https://linkedin.com/" target="_blank" class="contact-link">linkedin.com/in/april</a></p>
+                    <p>Github: <a href="https://github.com/" target="_blank" class="contact-link">github.com/april</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+               <div class="glow-group mb-4">
+                    <h3><u>Education</u></h3>
+                    <h4>from 2023 - 2028</h4>
+                    <ul class="mb-4">
+                        <li>graduated from Southeast Asia University</li>
+                        <li>major in Computer Engineering</li>
+                        <li>GPA 4.00</li>
+                    </ul>
+                </div>
+
+                <div class="glow-group">
+                    <h3><u>Technical Skills</u></h3>
+                    <p><strong>- Machine Learning:</strong> Understanding and creating algorithms that enable AI systems to learn and improve.</p>
+                    <p><strong>- Statistics and Mathematics:</strong> Knowledge of statistical methods and mathematical modeling.</p>
+                    <p><strong>- AI Model Development:</strong> Skills in designing, testing, and refining AI models.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="glow-group mb-4">
+                    <h3><u>Experience</u></h3>
+                    <h4>Position : Software Engineer(Senior)</h4>
+                    <h4>At Nvidia</h4>
+                    <h4>from 2028 - present</h4>
+                    <ul class="mb-4">
+                        <li>successfully built new AI</li>
+                        <li>improved the performance of existing AI</li>
+                        <li>optimized the performance of existing AI</li>
+                    </ul>
+                </div>
+
+                <div class="glow-group">
+                    <h3><u>Projects on Github</u></h3>
+                    <p><strong>- some really cool project </strong>this project will make you hire me</p>
+                    <p><strong>- some really cool project </strong>this project will make you hire me</p>
+                    <p><strong>- some really cool project </strong>this project will make you hire me</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
